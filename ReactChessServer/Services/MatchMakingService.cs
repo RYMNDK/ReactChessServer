@@ -36,11 +36,12 @@ public class MatchMakingService
     
     public Guid? GetWithGameId(Guid gameId)
     {
-        if (_validGameList.ContainsKey(gameId) && !_validGameList.TryGetValue(gameId, out var isInvalid) && isInvalid) {
+        // Check if the game exists and is valid (true)
+        if (_validGameList.TryGetValue(gameId, out bool isValid) && isValid) {
+            // Mark it as used (false)
             _validGameList.TryUpdate(gameId, false, true);
             return gameId;
         }
-        
         return null;
     }
     
