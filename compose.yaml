@@ -1,0 +1,6 @@
+﻿services:
+  react-chess-server:
+    image: react-chess-server
+    build:
+      context: .
+      dockerfile: ReactChessServer/Dockerfile
