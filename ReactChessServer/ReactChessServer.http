@@ -1,0 +1,6 @@
+@ReactChessServerHostAddress = http://localhost:5180
+
+GET {{ReactChessServerHostAddress}}/weatherforecast/
+Accept: application/json
+
+###

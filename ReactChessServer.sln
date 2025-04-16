@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactChessServer", "ReactChessServer\ReactChessServer.csproj", "{6BCA15DF-8A8D-44A8-88FE-128EFAB86D5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{47BD97FF-1858-4FFB-93A2-F2F8F1E05620}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BCA15DF-8A8D-44A8-88FE-128EFAB86D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCA15DF-8A8D-44A8-88FE-128EFAB86D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCA15DF-8A8D-44A8-88FE-128EFAB86D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCA15DF-8A8D-44A8-88FE-128EFAB86D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
